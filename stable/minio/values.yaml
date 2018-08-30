@@ -33,6 +33,10 @@ configPath: "/root/.minio/"
 mountPath: "/export"
 replicas: 4
 
+mountPath:
+  - "/export0"
+  #- "/export1"
+
 ## Enable persistence using Persistent Volume Claims
 ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
 ##
